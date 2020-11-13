@@ -1,0 +1,21 @@
+1 creamos el proyecto
+luego de crear el pryecto y deplegarlo en el navegador 
+
+2 configuramos el proyecto
+crearemos un archivo llamado login.blade.php en la ruta resources/views
+cambiamos la ruta en routes/web.php 
+creamos un archivo llamado master.blade.php que será nuestra landing page
+incluimos nuestra pagina master.blade.php en login
+incluimos la etiqueta section
+incluimos bootstrap
+creamos un boton en login.blade.php
+
+3 creamos las secciones header, footer y login
+crearemos un archivo llamado header.blade.php en resources/views
+crearemos un archivo llamado footer.blade.php en resources/views
+borramos la funcion jquery de login.blade.php
+agregamos la directiva @yield('content') en master.blade.php
+inyectamos las dependencias header y footer en login.blade.php
+nos ubicamos en el sitio de bootstrap y ubicamos el componente navbar y copiamos el primer ejemplo de codigo de dicha seccion y lo pegaremos en header.blade.php 
+modificaremos el codigo copiado y dejaremos la primera sección
+luego en el sitio de bootstrap ubicaremos el componente forms y copiaremos el primer ejemplo de codigo de dicha seccion y lo pegaremos en login.blade.php 
